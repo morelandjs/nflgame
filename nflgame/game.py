@@ -323,7 +323,7 @@ class Game (object):
                             break
                     assert game.eid is not None
                 game.data['gcJsonAvailable'] = True
-            except ValueError:
+            except (ValueError, AttributeError):
                 return None
 
         return game
