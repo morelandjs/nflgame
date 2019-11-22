@@ -1,11 +1,19 @@
 from collections import OrderedDict
 import datetime
 import json
+import logging
 import os.path
 
 __pdoc__ = {}
 
 _sched_json_file = os.path.join(os.path.dirname(__file__), 'schedule.json')
+
+log_level = os.getenv("NFLGAME_LOG_LEVEL", '')
+logging.basicConfig()
+logger = logging.getLogger('nflgame')
+
+if log_level == "INFO":
+    logger.root.setLevel(logging.INFO)
 
 
 def calc_desired_weeks(year, phase):
@@ -82,12 +90,14 @@ def _create_schedule(jsonf=None):
             weeks_to_update = order_weeks_to_update(missing_weeks, current_week)
 
             for week_to_update in weeks_to_update:
-                print(('Updating {}').format(week_to_update))
+                logging.info('Updating {}'.format(week_to_update))
                 year, phase, week = week_to_update
                 week_was_updated = nflgame.update_sched.update_week(sched, year, phase, week)
                 if not week_was_updated:
-                    print(("Week {}{} of {} was either empty, or it couldn't be fetched from NFL.com. Aborting.")\
-                        .format(phase , week, year))
+                    logging.info(' '.join([
+                        "Week {}{} of {}".format(phase, week, year),
+                        "was either empty, or it couldn't be fetched from NFL.com.",
+                        "Aborting."]))
                     break
 
             nflgame.update_sched.write_schedule(jsonf, sched)
