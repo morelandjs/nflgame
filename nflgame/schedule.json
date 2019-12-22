@@ -59176,6 +59176,57 @@
    }
   ],
   [
+   "2019122100",
+   {
+    "away": "HOU",
+    "day": 21,
+    "eid": "2019122100",
+    "gamekey": "58128",
+    "home": "TB",
+    "meridiem": "PM",
+    "month": 12,
+    "season_type": "REG",
+    "time": "1:00",
+    "wday": "Sat",
+    "week": 16,
+    "year": 2019
+   }
+  ],
+  [
+   "2019122101",
+   {
+    "away": "BUF",
+    "day": 21,
+    "eid": "2019122101",
+    "gamekey": "58126",
+    "home": "NE",
+    "meridiem": "PM",
+    "month": 12,
+    "season_type": "REG",
+    "time": "4:30",
+    "wday": "Sat",
+    "week": 16,
+    "year": 2019
+   }
+  ],
+  [
+   "2019122102",
+   {
+    "away": "LA",
+    "day": 21,
+    "eid": "2019122102",
+    "gamekey": "58127",
+    "home": "SF",
+    "meridiem": "PM",
+    "month": 12,
+    "season_type": "REG",
+    "time": "8:15",
+    "wday": "Sat",
+    "week": 16,
+    "year": 2019
+   }
+  ],
+  [
    "2019122200",
    {
     "away": "DET",
@@ -59186,7 +59237,7 @@
     "meridiem": "PM",
     "month": 12,
     "season_type": "REG",
-    "time": "1:00",
+    "time": "4:05",
     "wday": "Sun",
     "week": 16,
     "year": 2019
@@ -59203,58 +59254,7 @@
     "meridiem": "PM",
     "month": 12,
     "season_type": "REG",
-    "time": "1:00",
-    "wday": "Sun",
-    "week": 16,
-    "year": 2019
-   }
-  ],
-  [
-   "2019122202",
-   {
-    "away": "BUF",
-    "day": 22,
-    "eid": "2019122202",
-    "gamekey": "58126",
-    "home": "NE",
-    "meridiem": "PM",
-    "month": 12,
-    "season_type": "REG",
-    "time": "1:00",
-    "wday": "Sun",
-    "week": 16,
-    "year": 2019
-   }
-  ],
-  [
-   "2019122203",
-   {
-    "away": "LA",
-    "day": 22,
-    "eid": "2019122203",
-    "gamekey": "58127",
-    "home": "SF",
-    "meridiem": "PM",
-    "month": 12,
-    "season_type": "REG",
-    "time": "1:00",
-    "wday": "Sun",
-    "week": 16,
-    "year": 2019
-   }
-  ],
-  [
-   "2019122204",
-   {
-    "away": "HOU",
-    "day": 22,
-    "eid": "2019122204",
-    "gamekey": "58128",
-    "home": "TB",
-    "meridiem": "PM",
-    "month": 12,
-    "season_type": "REG",
-    "time": "1:00",
+    "time": "4:05",
     "wday": "Sun",
     "week": 16,
     "year": 2019
@@ -59720,5 +59720,5 @@
    }
   ]
  ],
- "time": 1576429352.2503607
+ "time": 1576944998.3011875
 }
