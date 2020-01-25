@@ -30193,22 +30193,6 @@
    }
   ],
   [
-   "2014112301",
-   {
-    "away": "NYJ",
-    "day": 23,
-    "eid": "2014112301",
-    "gamekey": "56333",
-    "home": "BUF",
-    "month": 11,
-    "season_type": "REG",
-    "time": "7:00",
-    "wday": "Mon",
-    "week": 12,
-    "year": 2014
-   }
-  ],
-  [
    "2014112302",
    {
     "away": "TB",
@@ -30395,6 +30379,22 @@
     "month": 11,
     "season_type": "REG",
     "time": "8:30",
+    "wday": "Mon",
+    "week": 12,
+    "year": 2014
+   }
+  ],
+  [
+   "2014112401",
+   {
+    "away": "NYJ",
+    "day": 24,
+    "eid": "2014112401",
+    "gamekey": "56333",
+    "home": "BUF",
+    "month": 11,
+    "season_type": "REG",
+    "time": "7:00",
     "wday": "Mon",
     "week": 12,
     "year": 2014
@@ -59718,7 +59718,24 @@
     "week": 17,
     "year": 2019
    }
+  ],
+  [
+   "2020012600",
+   {
+    "away": "NPR",
+    "day": 26,
+    "eid": "2020012600",
+    "gamekey": "58166",
+    "home": "APR",
+    "meridiem": "PM",
+    "month": 1,
+    "season_type": "PRO",
+    "time": "3:00",
+    "wday": "Sun",
+    "week": 21,
+    "year": 2019
+   }
   ]
  ],
- "time": 1578278156.5227382
+ "time": 1579873110.7691045
 }
