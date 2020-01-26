@@ -34,16 +34,13 @@ def calc_desired_weeks(year, phase):
 def check_missing_weeks(sched, year, phase):
 
     missing_weeks = calc_desired_weeks(year, phase)
-    print("missing_weeks", missing_weeks)
     stored_weeks = set()
 
     for info in sched.values():
-        if info['year'] != year:
+        if (info['year'] != year) or (info['season_type'] == 'PRO'):
             continue
         stored_week = (year, info['season_type'], info['week'])
         stored_weeks.add(stored_week)
-
-    print("stored_weeks", stored_weeks)
 
     for stored_week in stored_weeks:
         missing_weeks.remove(stored_week)
